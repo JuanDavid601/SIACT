@@ -1,0 +1,11 @@
+{"level":30,"time":1793120363117,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1793120363119,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793120366907,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"localhost:3000","remoteAddress":"::1","remotePort":59867},"msg":"incoming request"}
+{"level":30,"time":1793120366907,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","msg":"Este es un hook onRequest"}
+{"level":30,"time":1793120366914,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":6.957499999999527,"msg":"request completed"}
+{"level":30,"time":1793120373319,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/activos","host":"localhost:3000","remoteAddress":"::1","remotePort":59867},"msg":"incoming request"}
+{"level":30,"time":1793120373319,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Este es un hook onRequest"}
+{"level":30,"time":1793120373320,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":200},"responseTime":0.8541999999997643,"msg":"request completed"}
+{"level":30,"time":1793120378754,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/","host":"localhost:3000","remoteAddress":"::1","remotePort":59867},"msg":"incoming request"}
+{"level":30,"time":1793120378754,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","msg":"Este es un hook onRequest"}
+{"level":30,"time":1793120378755,"pid":13620,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":0.5971000000008644,"msg":"request completed"}
