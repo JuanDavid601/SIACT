@@ -1,0 +1,129 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Rol {
+  id          Int       @id @default(autoincrement())
+  nombre      String
+  descripcion String?
+  usuarios    Usuario[]
+
+  @@map("Roles")
+}
+
+model Usuario {
+  id                Int               @id @default(autoincrement())
+  idRol             Int
+  nombre            String            @db.VarChar(150)
+  apellido          String            @db.VarChar(150)
+  correoElectronico String            @unique
+  direccion         String?
+  contrasena        String
+  estado            String
+  createdAt         DateTime          @default(now())
+  activos           Activo[]
+  historialActivos  HistorialActivo[]
+  mantenimientos    Mantenimiento[]
+  retiros           Retiro[]
+  rol               Rol               @relation(fields: [idRol], references: [id])
+
+  @@index([idRol])
+  @@map("Usuario")
+}
+
+model Dependencia {
+  id                Int      @id @default(autoincrement())
+  tipoDependencia   String
+  nombreDependencia String
+  codigoDependencia String
+  activos           Activo[]
+
+  @@map("Dependencia")
+}
+
+model Activo {
+  id                Int               @id @default(autoincrement())
+  idUsuario         Int?
+  idDependencia     Int?
+  descripcion       String?
+  nombreInventario  String?           @db.VarChar(150)
+  fechaIngresoBien  DateTime?
+  fechaEntrega      DateTime?
+  fechaEntrada      DateTime?
+  fechaActivacion   DateTime?
+  responsableActual String?           @db.VarChar(150)
+  fecha             DateTime?
+  codBarras         String?           @unique
+  codQr             String?           @unique
+  estadoUso         String?
+  placa             String?
+  marca             String?
+  serial            String?
+  dependencia       Dependencia?      @relation(fields: [idDependencia], references: [id])
+  usuario           Usuario?          @relation(fields: [idUsuario], references: [id])
+  historialActivos  HistorialActivo[]
+  mantenimientos    Mantenimiento[]
+  retiros           Retiro[]
+
+  @@index([idUsuario])
+  @@index([idDependencia])
+  @@index([estadoUso])
+  @@index([marca])
+  @@index([serial])
+  @@map("Activos")
+}
+
+model HistorialActivo {
+  id         Int      @id @default(autoincrement())
+  idActivo   Int
+  usuariosId Int
+  tipoEvento String
+  detalles   String?
+  createdAt  DateTime @default(now())
+  activo     Activo   @relation(fields: [idActivo], references: [id])
+  usuario    Usuario  @relation(fields: [usuariosId], references: [id])
+
+  @@index([idActivo])
+  @@index([usuariosId])
+  @@index([createdAt])
+  @@map("Historial_Activos")
+}
+
+model Mantenimiento {
+  id                  Int      @id @default(autoincrement())
+  idActivo            Int
+  tecnicoId           Int
+  tipoMantenimiento   String
+  descripcion         String?
+  diagnostico         String?
+  repuestosUtilizados String?
+  createdAt           DateTime @default(now())
+  activo              Activo   @relation(fields: [idActivo], references: [id])
+  tecnico             Usuario  @relation(fields: [tecnicoId], references: [id])
+
+  @@index([idActivo])
+  @@index([tecnicoId])
+  @@index([createdAt])
+  @@map("Mantenimientos")
+}
+
+model Retiro {
+  id               Int      @id @default(autoincrement())
+  idActivo         Int
+  usuariosId       Int
+  numeroResolucion String?
+  motivo           String
+  fechaBaja        DateTime
+  activo           Activo   @relation(fields: [idActivo], references: [id])
+  usuario          Usuario  @relation(fields: [usuariosId], references: [id])
+
+  @@index([idActivo])
+  @@index([usuariosId])
+  @@index([fechaBaja])
+  @@map("Retiros")
+}
