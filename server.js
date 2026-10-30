@@ -1,8 +1,9 @@
+require('dotenv').config();
 const fastify = require('fastify');
-const pino = require('pino');
 const fs = require('fs');
 const path = require('path');
-
+const prismaPlugin = require('./src/plugins/prisma');
+const activosRoutes = require('./src/routes/activos.routes');
 
 // Crear la carpeta logs si no existe
 const logsDir = path.join(__dirname, 'logs');
@@ -14,12 +15,7 @@ if (!fs.existsSync(logsDir)) {
 // Archivo donde se guardarán los logs
 const logFile = path.join(logsDir, 'logs.log');
 
-// Logger para archivo
-const fileDestination = pino.destination({
-  dest: logFile,
-  sync: false
-});
-
+// Configuración de Fastify y Pino
 const server = fastify({
   logger: {
     level: 'info',
@@ -46,7 +42,11 @@ const server = fastify({
   }
 });
 
+// Registrar el plugin de Prisma
+server.register(prismaPlugin);
+server.register(activosRoutes);
 
+// Registrar las solicitudes recibidas
 server.addHook('onRequest', async (request, reply) => {
   request.log.info({
     method: request.method,
@@ -54,7 +54,7 @@ server.addHook('onRequest', async (request, reply) => {
   }, 'Solicitud recibida');
 });
 
-
+// Ruta principal de prueba
 server.get('/', async (request, reply) => {
   return {
     mensaje: 'SIACT - Backend funcionando',
@@ -63,6 +63,9 @@ server.get('/', async (request, reply) => {
 });
 
 
+
+
+// Iniciar servidor
 const iniciarServidor = async () => {
   try {
     await server.listen({
@@ -70,7 +73,9 @@ const iniciarServidor = async () => {
       host: '127.0.0.1'
     });
 
-    server.log.info('SIACT está corriendo en http://127.0.0.1:3000');
+    server.log.info(
+      'SIACT está corriendo en http://127.0.0.1:3000'
+    );
   } catch (error) {
     server.log.error(error);
     process.exit(1);
