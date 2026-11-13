@@ -119,11 +119,11 @@ async function activosRoutes(fastify) {
 // Endpoint para leer un activo por su codigo de barras
 //////////////////////////////////////
 
-  fastify.get('/api/activos/:codigo', async (request, reply) => {
+  fastify.get('/api/activos/barras/:codigo', async (request, reply) => {
     try {
         const { codigo } = request.params;
 
-        const activo = fastify.prisma.activo.findUnique({
+        const activo = await fastify.prisma.activo.findUnique({
             where: {
                 codBarras: codigo
             }

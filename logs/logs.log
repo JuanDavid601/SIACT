@@ -148,3 +148,159 @@
 {"level":30,"time":1793305327529,"pid":10124,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
 {"level":30,"time":1793364714804,"pid":12968,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
 {"level":30,"time":1793364714804,"pid":12968,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793369914471,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793369914472,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793369918395,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53492},"msg":"incoming request"}
+{"level":30,"time":1793369918396,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1793369918402,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":5.5658000000003085,"msg":"request completed"}
+{"level":30,"time":1793369918742,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53492},"msg":"incoming request"}
+{"level":30,"time":1793369918742,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1793369918742,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1793369918743,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":0.6715999999996711,"msg":"request completed"}
+{"level":30,"time":1793369925995,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/activos","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53492},"msg":"incoming request"}
+{"level":30,"time":1793369925995,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/activos","msg":"Solicitud recibida"}
+{"level":30,"time":1793369928447,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":2451.9359999999997,"msg":"request completed"}
+{"level":30,"time":1793369977061,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/activos/barras/PRUEBA-001","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53492},"msg":"incoming request"}
+{"level":30,"time":1793369977061,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/activos/barras/PRUEBA-001","msg":"Solicitud recibida"}
+{"level":30,"time":1793369977062,"pid":31000,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":200},"responseTime":1.0178000000014435,"msg":"request completed"}
+{"level":30,"time":1793373057463,"pid":24964,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793373057463,"pid":24964,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793373066498,"pid":24964,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":55006},"msg":"incoming request"}
+{"level":30,"time":1793373066499,"pid":24964,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1793373066506,"pid":24964,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":6.596499999999651,"msg":"request completed"}
+{"level":30,"time":1793373117649,"pid":30232,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793373117649,"pid":30232,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793373186580,"pid":22144,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793373186581,"pid":22144,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793374057339,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793374057339,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793374066448,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50014},"msg":"incoming request"}
+{"level":30,"time":1793374066449,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1793374066458,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":8.712900000000445,"msg":"request completed"}
+{"level":30,"time":1793374105840,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58441},"msg":"incoming request"}
+{"level":30,"time":1793374105841,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1793374105844,"pid":9504,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":200},"responseTime":2.443700000003446,"msg":"request completed"}
+{"level":30,"time":1793375052613,"pid":24284,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793375052614,"pid":24284,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793375127893,"pid":30068,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793375127893,"pid":30068,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793375382784,"pid":30884,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793375382784,"pid":30884,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793375405631,"pid":29112,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793375405632,"pid":29112,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793375424076,"pid":26724,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793375424077,"pid":26724,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793377531326,"pid":11632,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793377531327,"pid":11632,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793377747462,"pid":6496,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793377747463,"pid":6496,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793377756378,"pid":19112,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793377756378,"pid":19112,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793377761436,"pid":31948,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793377761438,"pid":31948,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793379261546,"pid":27956,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793379261547,"pid":27956,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793717172510,"pid":19488,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793717172511,"pid":19488,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793719363604,"pid":30768,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793719363605,"pid":30768,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793719384625,"pid":28856,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793719384625,"pid":28856,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793720324566,"pid":23244,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793720324567,"pid":23244,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793720481200,"pid":25480,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793720481200,"pid":25480,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793722107200,"pid":25640,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793722107200,"pid":25640,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793722710774,"pid":29812,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793722710775,"pid":29812,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793723397079,"pid":1632,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793723397080,"pid":1632,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793723466488,"pid":30112,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793723466489,"pid":30112,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793726061756,"pid":10736,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793726061756,"pid":10736,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793732298249,"pid":24792,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793732298250,"pid":24792,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793732310979,"pid":456,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793732310980,"pid":456,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793732388028,"pid":18868,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793732388028,"pid":18868,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793735219894,"pid":23848,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793735219894,"pid":23848,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793737365778,"pid":19932,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793737365779,"pid":19932,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793887835034,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793887835034,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1793887844906,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58556},"msg":"incoming request"}
+{"level":30,"time":1793887844907,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1793887844917,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":9.619399999999587,"msg":"request completed"}
+{"level":30,"time":1793887845214,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58556},"msg":"incoming request"}
+{"level":30,"time":1793887845214,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1793887845214,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1793887845215,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":0.7208000000009633,"msg":"request completed"}
+{"level":30,"time":1793887860081,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/activos","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58556},"msg":"incoming request"}
+{"level":30,"time":1793887860081,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/activos","msg":"Solicitud recibida"}
+{"level":30,"time":1793887861566,"pid":6900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":1485.2523,"msg":"request completed"}
+{"level":30,"time":1793904212493,"pid":24340,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1793904212494,"pid":24340,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794228446217,"pid":22932,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794228446219,"pid":22932,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794318016392,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794318016392,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794318022062,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51763},"msg":"incoming request"}
+{"level":30,"time":1794318022064,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1794318022081,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":17.678200000000288,"msg":"request completed"}
+{"level":30,"time":1794318022526,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51763},"msg":"incoming request"}
+{"level":30,"time":1794318022527,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1794318022528,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1794318022529,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":2.537000000000262,"msg":"request completed"}
+{"level":30,"time":1794318030581,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/activos","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51763},"msg":"incoming request"}
+{"level":30,"time":1794318030582,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/activos","msg":"Solicitud recibida"}
+{"level":30,"time":1794318031480,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":898.5427000000018,"msg":"request completed"}
+{"level":30,"time":1794319401697,"pid":19540,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319401698,"pid":19540,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319455904,"pid":824,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319455904,"pid":824,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319471173,"pid":3344,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319471174,"pid":3344,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319483219,"pid":19380,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319483219,"pid":19380,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319497333,"pid":27492,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319497333,"pid":27492,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319510422,"pid":25292,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319510423,"pid":25292,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319514536,"pid":16340,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319514537,"pid":16340,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319520694,"pid":16120,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319520695,"pid":16120,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794319525078,"pid":17644,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794319525078,"pid":17644,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794323773969,"pid":18364,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794323773969,"pid":18364,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794334716969,"pid":16120,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794334716970,"pid":16120,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794336389932,"pid":21416,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794336389933,"pid":21416,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500516595,"pid":23196,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500516596,"pid":23196,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500521079,"pid":23196,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":60253},"msg":"incoming request"}
+{"level":30,"time":1794500521079,"pid":23196,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1794500521087,"pid":23196,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":7.004299999999603,"msg":"request completed"}
+{"level":30,"time":1794500603909,"pid":20844,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500603909,"pid":20844,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500707740,"pid":21240,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500707740,"pid":21240,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500731651,"pid":6676,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500731652,"pid":6676,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500749231,"pid":27812,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500751792,"pid":7772,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500751793,"pid":7772,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794500990249,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794500990249,"pid":8164,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794501351643,"pid":16036,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794501351643,"pid":16036,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794507038526,"pid":31396,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794507038527,"pid":31396,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794507700810,"pid":11588,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794507700810,"pid":11588,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}

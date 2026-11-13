@@ -26,6 +26,7 @@ CREATE TABLE "Usuario" (
 CREATE TABLE "Dependencia" (
     "id" SERIAL NOT NULL,
     "tipoDependencia" TEXT NOT NULL,
+    "codigoTipoDependencia" TEXT NOT NULL,
     "nombreDependencia" TEXT NOT NULL,
     "codigoDependencia" TEXT NOT NULL,
 
@@ -40,17 +41,18 @@ CREATE TABLE "Activos" (
     "descripcion" TEXT,
     "nombreInventario" VARCHAR(150),
     "fechaIngresoBien" TIMESTAMP(3),
-    "fechaEntrega" TIMESTAMP(3),
     "fechaEntrada" TIMESTAMP(3),
     "fechaActivacion" TIMESTAMP(3),
     "responsableActual" VARCHAR(150),
     "fecha" TIMESTAMP(3),
     "codBarras" TEXT,
-    "codQr" TEXT,
     "estadoUso" TEXT,
     "placa" TEXT,
     "marca" TEXT,
     "serial" TEXT,
+    "estado" TEXT,
+    "nombreTercero" TEXT,
+    "terceroType" TEXT,
 
     CONSTRAINT "Activos_pkey" PRIMARY KEY ("id")
 );
@@ -100,10 +102,10 @@ CREATE UNIQUE INDEX "Usuario_correoElectronico_key" ON "Usuario"("correoElectron
 CREATE INDEX "Usuario_idRol_idx" ON "Usuario"("idRol");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Activos_codBarras_key" ON "Activos"("codBarras");
+CREATE UNIQUE INDEX "Dependencia_codigoDependencia_codigoTipoDependencia_key" ON "Dependencia"("codigoDependencia", "codigoTipoDependencia");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Activos_codQr_key" ON "Activos"("codQr");
+CREATE UNIQUE INDEX "Activos_codBarras_key" ON "Activos"("codBarras");
 
 -- CreateIndex
 CREATE INDEX "Activos_idUsuario_idx" ON "Activos"("idUsuario");

@@ -1,6 +1,5 @@
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
 }
 
 datasource db {
@@ -39,10 +38,12 @@ model Usuario {
 model Dependencia {
   id                Int      @id @default(autoincrement())
   tipoDependencia   String
+  codigoTipoDependencia String
   nombreDependencia String
   codigoDependencia String
   activos           Activo[]
 
+  @@unique ([codigoDependencia, codigoTipoDependencia])
   @@map("Dependencia")
 }
 
@@ -53,17 +54,18 @@ model Activo {
   descripcion       String?
   nombreInventario  String?           @db.VarChar(150)
   fechaIngresoBien  DateTime?
-  fechaEntrega      DateTime?
   fechaEntrada      DateTime?
   fechaActivacion   DateTime?
   responsableActual String?           @db.VarChar(150)
   fecha             DateTime?
   codBarras         String?           @unique
-  codQr             String?           @unique
   estadoUso         String?
   placa             String?
   marca             String?
   serial            String?
+  estado            String?
+  nombreTercero     String?
+  terceroType       String?
   dependencia       Dependencia?      @relation(fields: [idDependencia], references: [id])
   usuario           Usuario?          @relation(fields: [idUsuario], references: [id])
   historialActivos  HistorialActivo[]
