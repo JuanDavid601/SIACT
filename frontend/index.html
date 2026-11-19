@@ -1,57 +1,13 @@
-
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIACT</title>
+    <title>frontend</title>
   </head>
-
   <body>
-    <main class="contenedor">
-      <h1>SIACT</h1>
-      <h2>Consulta de activos tecnológicos</h2>
-
-      <p>
-        Bienvenido a SIACT, la plataforma que te permite consultar y
-        gestionar tus activos tecnológicos de manera eficiente.
-      </p>
-
-      <section>
-        <h2>Identificar activo</h2>
-
-        <button id="iniciar-camara">
-          Escanear en vivo
-        </button>
-
-        <button id="tomar-foto">
-          Tomar o seleccionar fotografía
-        </button>
-
-        <button id="detener-camara" disabled>
-          Detener escaneo
-        </button>
-
-        <input
-          type="file"
-          id="foto-codigo"
-          accept="image/*"
-          capture="environment"
-          hidden
-        />
-
-        <video
-          id="camara"
-          autoplay
-          muted
-          playsinline
-          hidden
-        ></video>
-      </section>
-
-      <p id="resultado">Selecciona una modalidad de escaneo.</p>
-    </main>
-
-    <script type="module" src="/src/main.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

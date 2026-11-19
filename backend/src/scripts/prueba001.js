@@ -26,7 +26,7 @@ async function ejecutarMigracionCompleta() {
 
     const rutaArchivo = path.join(
       __dirname,
-      "../../archivos/REPORTE-DEVOLUTIVOS-(1)-xlsx (1).xlsx",
+      "../../../archivos/REPORTE-DEVOLUTIVOS-(1)-xlsx (1).xlsx",
     );
 
     console.log("[1/4] Leyendo Excel...");

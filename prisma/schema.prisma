@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  output = "../generated/prisma"
 }
 
 datasource db {
@@ -8,7 +9,7 @@ datasource db {
 
 model Rol {
   id          Int       @id @default(autoincrement())
-  nombre      String
+  nombre      String    @unique
   descripcion String?
   usuarios    Usuario[]
 

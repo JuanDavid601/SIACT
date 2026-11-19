@@ -304,3 +304,334 @@
 {"level":30,"time":1794507038527,"pid":31396,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
 {"level":30,"time":1794507700810,"pid":11588,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
 {"level":30,"time":1794507700810,"pid":11588,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794588207834,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794588207834,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794588211728,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":57991},"msg":"incoming request"}
+{"level":30,"time":1794588211729,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1794588211734,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":5.405399999999645,"msg":"request completed"}
+{"level":30,"time":1794588212024,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":57991},"msg":"incoming request"}
+{"level":30,"time":1794588212024,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1794588212025,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1794588212026,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":1.6770999999998821,"msg":"request completed"}
+{"level":30,"time":1794588222770,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/activos/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":57991},"msg":"incoming request"}
+{"level":30,"time":1794588222770,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/activos/","msg":"Solicitud recibida"}
+{"level":30,"time":1794588222771,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","msg":"Route GET:/api/activos/ not found"}
+{"level":30,"time":1794588222771,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":404},"responseTime":0.5649999999986903,"msg":"request completed"}
+{"level":30,"time":1794588229964,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/activos","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":57991},"msg":"incoming request"}
+{"level":30,"time":1794588229964,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/activos","msg":"Solicitud recibida"}
+{"level":30,"time":1794588237395,"pid":23144,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":200},"responseTime":7431.8462,"msg":"request completed"}
+{"level":30,"time":1794588610657,"pid":12400,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794588610657,"pid":12400,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":50,"time":1794590154244,"pid":6996,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"Error","message":"listen EADDRINUSE: address already in use 127.0.0.1:3000","stack":"Error: listen EADDRINUSE: address already in use 127.0.0.1:3000\n    at Server.setupListenHandle [as _listen2] (node:net:1937:16)\n    at listenInCluster (node:net:1994:12)\n    at node:net:2203:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"127.0.0.1","port":3000},"msg":"listen EADDRINUSE: address already in use 127.0.0.1:3000"}
+{"level":30,"time":1794932946127,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794932946128,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794932949995,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":64059},"msg":"incoming request"}
+{"level":30,"time":1794932949996,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1794932950008,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":12.211500000000342,"msg":"request completed"}
+{"level":30,"time":1794932950565,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":64059},"msg":"incoming request"}
+{"level":30,"time":1794932950565,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1794932950566,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1794932950566,"pid":10400,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":1.0244000000002416,"msg":"request completed"}
+{"level":30,"time":1794933487226,"pid":1708,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794933487227,"pid":1708,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794933501280,"pid":8108,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794933501280,"pid":8108,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794933853985,"pid":16824,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794933853985,"pid":16824,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794933862764,"pid":16544,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794933862764,"pid":16544,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794934036789,"pid":20336,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794934036789,"pid":20336,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794935765432,"pid":18888,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794935765433,"pid":18888,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794935795838,"pid":18888,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53640},"msg":"incoming request"}
+{"level":30,"time":1794935795840,"pid":18888,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1794935795851,"pid":18888,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":12.043599999997241,"msg":"request completed"}
+{"level":30,"time":1794943473228,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794943473229,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1794943648225,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65232},"msg":"incoming request"}
+{"level":30,"time":1794943648231,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943648275,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":400},"responseTime":45.39530000000377,"msg":"request completed"}
+{"level":30,"time":1794943715901,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65270},"msg":"incoming request"}
+{"level":30,"time":1794943715901,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943715904,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":400},"responseTime":2.4483999999938533,"msg":"request completed"}
+{"level":30,"time":1794943717227,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65272},"msg":"incoming request"}
+{"level":30,"time":1794943717228,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943717229,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":400},"responseTime":1.2741000000096392,"msg":"request completed"}
+{"level":30,"time":1794943722090,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65278},"msg":"incoming request"}
+{"level":30,"time":1794943722090,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943722092,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":400},"responseTime":1.5397999999986496,"msg":"request completed"}
+{"level":30,"time":1794943723285,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65280},"msg":"incoming request"}
+{"level":30,"time":1794943723285,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943723287,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":400},"responseTime":1.9147999999986496,"msg":"request completed"}
+{"level":30,"time":1794943775485,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65307},"msg":"incoming request"}
+{"level":30,"time":1794943775485,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943775486,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","res":{"statusCode":400},"responseTime":1.4064000000362284,"msg":"request completed"}
+{"level":30,"time":1794943834084,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":65329},"msg":"incoming request"}
+{"level":30,"time":1794943834084,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794943834086,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","res":{"statusCode":400},"responseTime":1.413300000014715,"msg":"request completed"}
+{"level":30,"time":1794944253084,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63436},"msg":"incoming request"}
+{"level":30,"time":1794944253085,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794944253090,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","res":{"statusCode":400},"responseTime":4.70699999993667,"msg":"request completed"}
+{"level":30,"time":1794944299213,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63454},"msg":"incoming request"}
+{"level":30,"time":1794944299213,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794944299220,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","res":{"statusCode":400},"responseTime":7.346000000019558,"msg":"request completed"}
+{"level":30,"time":1794944300537,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63455},"msg":"incoming request"}
+{"level":30,"time":1794944300537,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794944300539,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","res":{"statusCode":400},"responseTime":1.6149999999906868,"msg":"request completed"}
+{"level":30,"time":1794944301334,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63458},"msg":"incoming request"}
+{"level":30,"time":1794944301337,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1794944301338,"pid":11664,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","res":{"statusCode":400},"responseTime":1.7403000000631437,"msg":"request completed"}
+{"level":30,"time":1794944343408,"pid":27404,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1794944343409,"pid":27404,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795006103047,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795006103048,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795006109763,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":64929},"msg":"incoming request"}
+{"level":30,"time":1795006109776,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1795006109901,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":135.71839999999975,"msg":"request completed"}
+{"level":30,"time":1795006110456,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":61472},"msg":"incoming request"}
+{"level":30,"time":1795006110456,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1795006110457,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1795006110457,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":1.2340000000003783,"msg":"request completed"}
+{"level":30,"time":1795006128528,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/activos","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51664},"msg":"incoming request"}
+{"level":30,"time":1795006128530,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/activos","msg":"Solicitud recibida"}
+{"level":30,"time":1795006137038,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":8508.439000000002,"msg":"request completed"}
+{"level":30,"time":1795007045558,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795007045559,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795007100288,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":59064},"msg":"incoming request"}
+{"level":30,"time":1795007100288,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007100289,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","msg":"Route GET:/me not found"}
+{"level":30,"time":1795007100295,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":404},"responseTime":7.084100000000035,"msg":"request completed"}
+{"level":30,"time":1795007117503,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":59074},"msg":"incoming request"}
+{"level":30,"time":1795007117503,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007117504,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":401},"responseTime":1.2082999999984168,"msg":"request completed"}
+{"level":30,"time":1795007355621,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":49856},"msg":"incoming request"}
+{"level":30,"time":1795007355622,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795007357935,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":2313.1506999999983,"msg":"request completed"}
+{"level":30,"time":1795007395429,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58343},"msg":"incoming request"}
+{"level":30,"time":1795007395430,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007396531,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":200},"responseTime":1101.7831000000006,"msg":"request completed"}
+{"level":30,"time":1795007810403,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"GET","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":61318},"msg":"incoming request"}
+{"level":30,"time":1795007810407,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"GET","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795007810408,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","msg":"Route GET:/api/auth/logout not found"}
+{"level":30,"time":1795007810412,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":404},"responseTime":6.100700000068173,"msg":"request completed"}
+{"level":30,"time":1795007831459,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":62799},"msg":"incoming request"}
+{"level":30,"time":1795007831459,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795007831464,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","res":{"statusCode":200},"responseTime":5.4614000000292435,"msg":"request completed"}
+{"level":30,"time":1795007840410,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":62809},"msg":"incoming request"}
+{"level":30,"time":1795007840410,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007841940,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","res":{"statusCode":200},"responseTime":1530.2773000000743,"msg":"request completed"}
+{"level":30,"time":1795007843418,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":62816},"msg":"incoming request"}
+{"level":30,"time":1795007843418,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007843597,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","res":{"statusCode":200},"responseTime":179.50319999991916,"msg":"request completed"}
+{"level":30,"time":1795007849862,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":62821},"msg":"incoming request"}
+{"level":30,"time":1795007849862,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795007849865,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","res":{"statusCode":200},"responseTime":2.025900000007823,"msg":"request completed"}
+{"level":30,"time":1795007863753,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":62826},"msg":"incoming request"}
+{"level":30,"time":1795007863753,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795007864479,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","res":{"statusCode":200},"responseTime":725.9601999999722,"msg":"request completed"}
+{"level":30,"time":1795008504434,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":59285},"msg":"incoming request"}
+{"level":30,"time":1795008504436,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795008504440,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","res":{"statusCode":200},"responseTime":3.9692999999970198,"msg":"request completed"}
+{"level":30,"time":1795008506788,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":59287},"msg":"incoming request"}
+{"level":30,"time":1795008506788,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795008506790,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","res":{"statusCode":200},"responseTime":2.04079999984242,"msg":"request completed"}
+{"level":30,"time":1795008507913,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":59289},"msg":"incoming request"}
+{"level":30,"time":1795008507913,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795008507914,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","res":{"statusCode":200},"responseTime":0.687900000018999,"msg":"request completed"}
+{"level":30,"time":1795008514839,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-e","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":59295},"msg":"incoming request"}
+{"level":30,"time":1795008514839,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-e","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008516315,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-e","res":{"statusCode":200},"responseTime":1476.4158999999054,"msg":"request completed"}
+{"level":30,"time":1795008518282,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-f","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":59300},"msg":"incoming request"}
+{"level":30,"time":1795008518282,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-f","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008519288,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-g","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":59302},"msg":"incoming request"}
+{"level":30,"time":1795008519288,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-g","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008612772,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-h","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":53916},"msg":"incoming request"}
+{"level":30,"time":1795008612773,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-h","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008613523,"pid":6636,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-h","res":{"statusCode":200},"responseTime":750.8278999999166,"msg":"request completed"}
+{"level":30,"time":1795008666359,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795008666359,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795008680691,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50934},"msg":"incoming request"}
+{"level":30,"time":1795008680693,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795008682113,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":1421.1239999999998,"msg":"request completed"}
+{"level":30,"time":1795008693016,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":50941},"msg":"incoming request"}
+{"level":30,"time":1795008693016,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795008693019,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":200},"responseTime":2.2770999999993364,"msg":"request completed"}
+{"level":30,"time":1795008695664,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":50944},"msg":"incoming request"}
+{"level":30,"time":1795008695665,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795008695666,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":1.150499999999738,"msg":"request completed"}
+{"level":30,"time":1795008708126,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50950},"msg":"incoming request"}
+{"level":30,"time":1795008708126,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008708865,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":200},"responseTime":738.2165000000023,"msg":"request completed"}
+{"level":30,"time":1795008710195,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50954},"msg":"incoming request"}
+{"level":30,"time":1795008710195,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795008710376,"pid":16280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":200},"responseTime":180.30099999999948,"msg":"request completed"}
+{"level":30,"time":1795009509612,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795009509613,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795009513685,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63868},"msg":"incoming request"}
+{"level":30,"time":1795009513686,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1795009513694,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":8.186499999999796,"msg":"request completed"}
+{"level":30,"time":1795009526635,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":64763},"msg":"incoming request"}
+{"level":30,"time":1795009526636,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795009528728,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":200},"responseTime":2092.7245000000003,"msg":"request completed"}
+{"level":30,"time":1795009549581,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63868},"msg":"incoming request"}
+{"level":30,"time":1795009549582,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795009549583,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":401},"responseTime":1.41639999999461,"msg":"request completed"}
+{"level":30,"time":1795009706947,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56693},"msg":"incoming request"}
+{"level":30,"time":1795009706948,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795009706948,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","msg":"Route GET:/api/auth/login not found"}
+{"level":30,"time":1795009706949,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":404},"responseTime":1.1441000000049826,"msg":"request completed"}
+{"level":30,"time":1795009722409,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50472},"msg":"incoming request"}
+{"level":30,"time":1795009722409,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795009723729,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":200},"responseTime":1319.3369999999995,"msg":"request completed"}
+{"level":30,"time":1795009732370,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56693},"msg":"incoming request"}
+{"level":30,"time":1795009732370,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795009732371,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","res":{"statusCode":401},"responseTime":0.8574000000080559,"msg":"request completed"}
+{"level":30,"time":1795009833832,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63254},"msg":"incoming request"}
+{"level":30,"time":1795009833833,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795009833835,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","res":{"statusCode":200},"responseTime":2.887400000006892,"msg":"request completed"}
+{"level":30,"time":1795009835150,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","req":{"method":"POST","url":"/api/auth/logout","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":63257},"msg":"incoming request"}
+{"level":30,"time":1795009835150,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795009835151,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","res":{"statusCode":200},"responseTime":0.679500000027474,"msg":"request completed"}
+{"level":30,"time":1795009862914,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63274},"msg":"incoming request"}
+{"level":30,"time":1795009862914,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795009864095,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","res":{"statusCode":200},"responseTime":1181.169200000004,"msg":"request completed"}
+{"level":30,"time":1795010011797,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63434},"msg":"incoming request"}
+{"level":30,"time":1795010011798,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795010012533,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","res":{"statusCode":200},"responseTime":735.1599999999744,"msg":"request completed"}
+{"level":30,"time":1795010330237,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56742},"msg":"incoming request"}
+{"level":30,"time":1795010330239,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795010332680,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","res":{"statusCode":200},"responseTime":2441.8471000000136,"msg":"request completed"}
+{"level":30,"time":1795010501095,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","req":{"method":"POST","url":"/api/auth/logout","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":49347},"msg":"incoming request"}
+{"level":30,"time":1795010501095,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795010501097,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","res":{"statusCode":200},"responseTime":1.5977000000420958,"msg":"request completed"}
+{"level":30,"time":1795010508128,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":49352},"msg":"incoming request"}
+{"level":30,"time":1795010508128,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795010508130,"pid":21616,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-d","res":{"statusCode":401},"responseTime":1.704399999929592,"msg":"request completed"}
+{"level":30,"time":1795010688453,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795010688454,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795010726886,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58196},"msg":"incoming request"}
+{"level":30,"time":1795010726889,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795010729327,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":2439.7096999999994,"msg":"request completed"}
+{"level":30,"time":1795010736541,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58204},"msg":"incoming request"}
+{"level":30,"time":1795010736541,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795010736725,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":200},"responseTime":184.0005999999994,"msg":"request completed"}
+{"level":30,"time":1795010743180,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"GET","url":"/api/auth/solo-administradores","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58207},"msg":"incoming request"}
+{"level":30,"time":1795010743181,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"GET","url":"/api/auth/solo-administradores","msg":"Solicitud recibida"}
+{"level":30,"time":1795010743181,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","msg":"Route GET:/api/auth/solo-administradores not found"}
+{"level":30,"time":1795010743182,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":404},"responseTime":1.1022000000011758,"msg":"request completed"}
+{"level":30,"time":1795010772586,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"GET","url":"/api/auth/solo-admin","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58232},"msg":"incoming request"}
+{"level":30,"time":1795010772586,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"GET","url":"/api/auth/solo-admin","msg":"Solicitud recibida"}
+{"level":30,"time":1795010772586,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","msg":"Route GET:/api/auth/solo-admin not found"}
+{"level":30,"time":1795010772586,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":404},"responseTime":0.6744000000035157,"msg":"request completed"}
+{"level":30,"time":1795010792289,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"GET","url":"/api/auth/solo-superadmin","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58245},"msg":"incoming request"}
+{"level":30,"time":1795010792290,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"GET","url":"/api/auth/solo-superadmin","msg":"Solicitud recibida"}
+{"level":30,"time":1795010792292,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":200},"responseTime":2.6226000000024214,"msg":"request completed"}
+{"level":30,"time":1795010798427,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","req":{"method":"POST","url":"/api/auth/logout","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58247},"msg":"incoming request"}
+{"level":30,"time":1795010798427,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795010798429,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","res":{"statusCode":200},"responseTime":2.005699999994249,"msg":"request completed"}
+{"level":30,"time":1795010801632,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","req":{"method":"GET","url":"/api/auth/solo-superadmin","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":58249},"msg":"incoming request"}
+{"level":30,"time":1795010801632,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","method":"GET","url":"/api/auth/solo-superadmin","msg":"Solicitud recibida"}
+{"level":30,"time":1795010801633,"pid":21984,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","res":{"statusCode":401},"responseTime":1.0002999999996973,"msg":"request completed"}
+{"level":30,"time":1795010808225,"pid":4608,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795010808226,"pid":4608,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":50,"time":1795011885130,"pid":12524,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:33:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795012005017,"pid":16824,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795012745735,"pid":21856,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795012813784,"pid":27304,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795012879851,"pid":26756,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013191846,"pid":24384,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013201138,"pid":28100,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013243705,"pid":22848,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013329515,"pid":20500,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013404011,"pid":8176,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013839956,"pid":25180,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013877330,"pid":24552,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013922424,"pid":25616,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013946886,"pid":22852,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013969345,"pid":18304,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795013974571,"pid":20812,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795014058879,"pid":1672,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":50,"time":1795014110912,"pid":17052,"hostname":"LAPTOP-NRCKBLMP","err":{"type":"TypeError","message":"fastify.authorizeRoles is not a function","stack":"TypeError: fastify.authorizeRoles is not a function\n    at activosRoutes (C:\\Users\\lhdj2\\SIACT\\backend\\src\\routes\\activos.routes.js:37:17)\n    at Plugin.exec (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\lib\\plugin.js:138:28)\n    at Boot._loadPlugin (C:\\Users\\lhdj2\\SIACT\\node_modules\\avvio\\index.js:447:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"},"msg":"fastify.authorizeRoles is not a function"}
+{"level":30,"time":1795018703852,"pid":26456,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795018703853,"pid":26456,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795019160512,"pid":23580,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795019160512,"pid":23580,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795019717523,"pid":20684,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795019717523,"pid":20684,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795025453913,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795025453914,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795025817204,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":49675},"msg":"incoming request"}
+{"level":30,"time":1795025817211,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1795025817232,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","msg":"Route POST:/ not found"}
+{"level":30,"time":1795025817241,"pid":27900,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":404},"responseTime":34.33279999997467,"msg":"request completed"}
+{"level":30,"time":1795026299698,"pid":19928,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795026299698,"pid":19928,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795026312938,"pid":19528,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795026312938,"pid":19528,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795026324058,"pid":19528,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":63417},"msg":"incoming request"}
+{"level":30,"time":1795026324060,"pid":19528,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795026324067,"pid":19528,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":401},"responseTime":8.769400000001042,"msg":"request completed"}
+{"level":30,"time":1795026631829,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795026631829,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795026681254,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":57503},"msg":"incoming request"}
+{"level":30,"time":1795026681255,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795026681270,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":401},"responseTime":15.18109999999433,"msg":"request completed"}
+{"level":30,"time":1795026846523,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":55531},"msg":"incoming request"}
+{"level":30,"time":1795026846524,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795026846527,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":401},"responseTime":3.0054999999993015,"msg":"request completed"}
+{"level":30,"time":1795026899698,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":60670},"msg":"incoming request"}
+{"level":30,"time":1795026899699,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795026901661,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-3","res":{"statusCode":200},"responseTime":1961.954400000046,"msg":"request completed"}
+{"level":30,"time":1795026957290,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":52639},"msg":"incoming request"}
+{"level":30,"time":1795026957290,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795026958617,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-4","res":{"statusCode":201},"responseTime":1327.0663000000059,"msg":"request completed"}
+{"level":30,"time":1795026990691,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","req":{"method":"GET","url":"/api/auth/solo-superadmin","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51434},"msg":"incoming request"}
+{"level":30,"time":1795026990691,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","method":"GET","url":"/api/auth/solo-superadmin","msg":"Solicitud recibida"}
+{"level":30,"time":1795026990691,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","msg":"Route GET:/api/auth/solo-superadmin not found"}
+{"level":30,"time":1795026990692,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-5","res":{"statusCode":404},"responseTime":0.9491000000271015,"msg":"request completed"}
+{"level":30,"time":1795026997148,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51437},"msg":"incoming request"}
+{"level":30,"time":1795026997148,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795026997842,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-6","res":{"statusCode":200},"responseTime":693.3029000000097,"msg":"request completed"}
+{"level":30,"time":1795027035827,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51449},"msg":"incoming request"}
+{"level":30,"time":1795027035827,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795027036458,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-7","res":{"statusCode":409},"responseTime":631.1143000000156,"msg":"request completed"}
+{"level":30,"time":1795027047846,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51458},"msg":"incoming request"}
+{"level":30,"time":1795027047846,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795027047847,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-8","res":{"statusCode":400},"responseTime":0.9137000000337139,"msg":"request completed"}
+{"level":30,"time":1795027089104,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","req":{"method":"POST","url":"/api/auth/logout","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56463},"msg":"incoming request"}
+{"level":30,"time":1795027089104,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","method":"POST","url":"/api/auth/logout","msg":"Solicitud recibida"}
+{"level":30,"time":1795027089106,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-9","res":{"statusCode":200},"responseTime":1.724800000025425,"msg":"request completed"}
+{"level":30,"time":1795027112524,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","req":{"method":"POST","url":"/api/auth/login","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56477},"msg":"incoming request"}
+{"level":30,"time":1795027112524,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","method":"POST","url":"/api/auth/login","msg":"Solicitud recibida"}
+{"level":30,"time":1795027113708,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-a","res":{"statusCode":200},"responseTime":1183.3883999999962,"msg":"request completed"}
+{"level":30,"time":1795027180195,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","req":{"method":"POST","url":"/api/usuarios","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56505},"msg":"incoming request"}
+{"level":30,"time":1795027180195,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","method":"POST","url":"/api/usuarios","msg":"Solicitud recibida"}
+{"level":30,"time":1795027180197,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-b","res":{"statusCode":403},"responseTime":2.096900000004098,"msg":"request completed"}
+{"level":30,"time":1795028406672,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":60604},"msg":"incoming request"}
+{"level":30,"time":1795028406673,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795028406678,"pid":20280,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-c","res":{"statusCode":401},"responseTime":4.973100000061095,"msg":"request completed"}
+{"level":30,"time":1795029976530,"pid":26424,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795029976530,"pid":26424,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795030318700,"pid":28376,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795030318700,"pid":28376,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795030343499,"pid":22548,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795030343499,"pid":22548,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795030679196,"pid":19464,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795030679196,"pid":19464,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795033059687,"pid":27884,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795033059687,"pid":27884,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795033105215,"pid":27884,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/api/auth/me","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":56627},"msg":"incoming request"}
+{"level":30,"time":1795033105215,"pid":27884,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/api/auth/me","msg":"Solicitud recibida"}
+{"level":30,"time":1795033105222,"pid":27884,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":401},"responseTime":6.155500000000757,"msg":"request completed"}
+{"level":30,"time":1795033511449,"pid":19192,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795033511450,"pid":19192,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795045744622,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1795045744624,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","msg":"SIACT está corriendo en http://127.0.0.1:3000"}
+{"level":30,"time":1795045749476,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":64808},"msg":"incoming request"}
+{"level":30,"time":1795045749536,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","method":"GET","url":"/","msg":"Solicitud recibida"}
+{"level":30,"time":1795045749756,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-1","res":{"statusCode":200},"responseTime":221.72530000000006,"msg":"request completed"}
+{"level":30,"time":1795045750416,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":50304},"msg":"incoming request"}
+{"level":30,"time":1795045750416,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","method":"GET","url":"/favicon.ico","msg":"Solicitud recibida"}
+{"level":30,"time":1795045750417,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1795045750453,"pid":21088,"hostname":"LAPTOP-NRCKBLMP","reqId":"req-2","res":{"statusCode":404},"responseTime":36.97680000000037,"msg":"request completed"}
